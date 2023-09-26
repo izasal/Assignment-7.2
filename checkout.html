@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index2.css">
+    <!-- FABICON -->
+    <link rel="icon" type="image" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHw_iWMuBFV7lVzPO26pe_x5LWEJzjY_fdgLAcKoP6dxUartF3POKhYBGvf65XrpguviU&usqp=CAU">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Didact+Gothic&display=swap" rel="stylesheet">
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body id="body2">
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-collapse navbar-light" style="background-color: rgba(255, 255, 255, 0);">
+        <div class="container-fluid">
+          <ul class="navbar-nav me-3 mt-3 ms-4 mb-2 mb-lg-0">                  
+            <li class="nav-item">
+                <a class="navbar-brand" href="index.html" style="font-size: 25px; color: rgb(40, 40, 40);"><b><span style="color: rgb(1, 63, 14)">Ghibli </span>Films</b></a>
+            </li>
+          </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">                  
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movies
+                </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <br><br>
+
+    <!-- PAYMENT -->
+    <div class="card container">
+      <div class="col p-2 my-2">
+      <div class="row justify-content-center rounded-3" style="background-color: rgba(27, 63, 15, 0.412)!important;">
+          <div class="col-xl-10 ">
+            
+              <div class="pt-4">
+                  <!-- TITLE -->
+                  <div class="header container text-center pt-3">
+                    
+                      <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHw_iWMuBFV7lVzPO26pe_x5LWEJzjY_fdgLAcKoP6dxUartF3POKhYBGvf65XrpguviU&usqp=CAU" style="height: 75px; width: 80px;">
+                      <h1 class="mt-3" style="font-size: 33px; color: rgb(233, 246, 255);"><b><span style="color: rgb(78, 162, 251)">Ghibli</span> Films</b></h1>
+                      <h5 style="color: white;">Checkout</h5>
+                      <li class="breadcrumb-item font-weight-bold "><a class="black-text text-uppercase " href="index.html" style="text-decoration: none; color: rgb(255, 255, 255);"><span class="mr-md-3 mr-1">← Back</span></a><i class="fa fa-angle-double-right " aria-hidden="true"></i></li>
+
+                      
+                  </div>
+                  <br>
+                  
+                  <!-- FORM -->
+                  
+                  <div class="row justify-content-around mb-4">
+                      <div class="col-md-5">
+                          <div class="card border-0 " style="background-color: rgba(228, 235, 240, 0.967)!important;">
+                          <form>
+                              <div class="card-header pb-0">
+                                  <h5 class="card-title space">Payment</h2>
+                    
+                              </div>
+                              <div class="card-body">
+                                  <div class="form-group" style="color: rgb(71, 71, 71)">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                      <label class="form-check-label" for="flexRadioDefault1">
+                                        Credit / Debit Cards and E-Wallets
+                                        <div class="row no-gutters">
+                                          <div class="col-sm-6 pr-sm-2">
+                                              <div class="form-group">
+                                                  <label for="NAME" class="small text-muted mb-1 mt-2">First Name</label>
+                                                  <input autocomplete="off" type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter first name" required>
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                              <div class="form-group">
+                                                  <label for="NAME" class="small text-muted mb-1 mt-2">Last Name</label>
+                                                  <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter last name">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="form-group">
+                                              <label for="NAME" class="small text-muted mt-2">Card Number</label>
+                                              <input type="number" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter card number" required>
+                                          </div>
+                                      </div>
+                                      <div class="row no-gutters">
+                                          <div class="col-sm-6 pr-sm-2">
+                                              <div class="form-group">
+                                                  <label for="NAME" class="small text-muted mb-1 mt-2">Expiry Date</label>
+                                                  <input type="date" class="form-control form-control-sm mt-2" name="DATE" id="DATE" aria-describedby="helpId" placeholder="" >
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                              <div class="form-group">
+                                                  <label for="NAME" class="small text-muted mb-1 mt-2">CVV</label>
+                                                  <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="CVV">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      </label><br><br>
+
+
+
+                                      
+                                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                      <label class="form-check-label" for="flexRadioDefault1">
+                                        GCash / Paypal
+                                      </label><br>
+
+                                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                      <label class="form-check-label" for="flexRadioDefault1">
+                                        Cash on Delivery (COD)
+                                      </label><br>
+                                      
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <br>
+                                    <label for="NAME" class="small text-muted mb-1">Email</label>
+                                      <input type="text" type="email" autocomplete="off" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter your email address" required>
+                                      <div class="form-check text-muted mt-2" style="font-size: 14px;">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                          <label class="form-check-label" for="flexCheckDefault">
+                                            Email me with news and offers
+                                          </label>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card-header pb-0">
+                                  <h5 class="card-title space">Shipping Address</h3>
+                                  
+                              </div>
+                                  <div class="card-body">
+                                    <p5 style="color: rgb(71, 71, 71)">(Applies to physical copy goods. )</p5><br>
+                                      <div class="form-group">
+
+                                          <div class="row no-gutters mt-3">
+                                              <div class="col-sm-6 pr-sm-2">
+                                                  <div class="form-group">
+                                                      <label for="NAME" class="small text-muted mb-1 mt-2">First Name</label>
+                                                      <input autocomplete="off" type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter first name" required>
+                                                  </div>
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <div class="form-group">
+                                                      <label for="NAME" class="small text-muted mb-1 mt-2">Last Name</label>
+                                                      <input autocomplete="off" type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter last name">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          
+                                          <div class="row">
+                                              <div class="form-group">
+                                                  <label for="NAME" class="small text-muted mt-2">Address</label>
+                                                  <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter your address" required>
+                                              </div>
+                                          </div>
+
+                                          <div class="row">
+                                              <div class="form-group">
+                                                  <label for="NAME" class="small text-muted mt-2">Apartment, suite, etc.</label>
+                                                  <input autocomplete="off" type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="">
+                                              </div>
+                                          </div>
+                                      
+                                          <div class="row no-gutters">
+                                              <div class="col-sm-6 pr-sm-2">
+                                                  <div class="form-group">
+                                                      <label for="NAME" class="small text-muted mb-1 mt-2">Postal Code</label>
+                                                      <input type="number" class="form-control form-control-sm mt-2" name="NUMBER" id="NUMBER" aria-describedby="helpId" placeholder="Enter postal code" required>
+                                                  </div>
+                                              </div>
+                                              <div class="col-sm-6">
+                                                  <div class="form-group">
+                                                      <label for="NAME" class="small text-muted mb-1 mt-2">City</label>
+                                                      <!-- Metro Manila-->
+                                                      <select id="city" name="city" class="form-select text-muted mt-1" style="font-size: 15px;">
+                                                          <option value="">Select City</option>
+                                                          <option value="Caloocan">Caloocan</option>
+                                                          <option value="Calumpang">Calumpang</option>
+                                                          <option value="Dasmariñas Village">Dasmariñas Village</option>
+                                                          <option value="Ermita">Ermita</option>
+                                                          <option value="Intramuros">Intramuros</option>
+                                                          <option value="Las Piñas">Las Piñas</option>
+                                                          <option value="Makati">Makati</option>
+                                                          <option value="Malabon">Malabon</option>
+                                                          <option value="Malate">Malate</option>
+                                                          <option value="Mandaluyong">Mandaluyong</option>
+                                                          <option value="Manila">Manila</option>
+                                                          <option value="Marikina">Marikina</option>
+                                                          <option value="Muntinlupa">Muntinlupa</option>
+                                                          <option value="National Capital Region">National Capital Region</option>
+                                                          <option value="Navotas">Navotas</option>
+                                                          <option value="Niugan">Niugan</option>
+                                                          <option value="Paco">Paco</option>
+                                                          <option value="Pandacan">Pandacan</option>
+                                                          <option value="Parañaque">Parañaque</option>
+                                                          <option value="Pasay">Pasay</option>
+                                                          <option value="Pasig">Pasig</option>
+                                                          <option value="Pateros">Pateros</option>
+                                                          <option value="Port Area">Port Area</option>
+                                                          <option value="Quezon City">Quezon City</option>
+                                                          <option value="Quiapo">Quiapo</option>
+                                                          <option value="Sambayanihan People's Village">Sambayanihan People's Village</option>
+                                                          <option value="San Juan">San Juan</option>
+                                                          <option value="San Miguel">San Miguel</option>
+                                                          <option value="Santa Ana">Santa Ana</option>
+                                                          <option value="Santa Cruz">Santa Cruz</option>
+                                                          <option value="Singkamas">Singkamas</option>
+                                                          <option value="Taguig">Taguig</option>
+                                                          <option value="Tanza">Tanza</option>
+                                                          <option value="Tanza">Tanza</option>
+                                                          <option value="Tondo">Tondo</option>
+                                                          <option value="Valenzuela">Valenzuela</option>
+                                                      </select>
+                                                  </div>
+                                              </div>
+                                          </div>
+
+                                          <div class="row">
+                                              <div class="form-group">
+                                                  <label for="NAME" class="small text-muted mt-2">Phone</label>
+                                                  <input autocomplete="off" type="number" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter your phone number" required>
+                                              </div>
+                                          </div>
+
+                                          <div class="form-check text-muted mt-3" style="font-size: 14px;">
+                                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                              <label class="form-check-label" for="flexCheckDefault">
+                                                Save this information for next time
+                                              </label>
+                                          </div>
+                                          <br>
+
+                                          <button class="btnhover rounded-3 btn-del w-50 p-2" type="submit">Proceed to Payment</button>
+                                         
+                                          
+                                          <br><br><br>
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
+                  </div>
+
+                  <!-- YOUR ORDER -->
+                  <div class="col-md-5 mt-3" >
+                          <div class="border-0 rounded-4" style="background-color: rgba(228, 235, 240, 0.967)!important;">
+                              <!-- <div class="card-header card-2">
+                                  <h5 class="card-title space">Your Order</h2>
+                                  <hr class="my-3">
+                                  
+                              </div> -->
+                              
+                              <!-- INPUT ORDER -->
+                              
+                                <div class="cartlist col-md-12 rounded-4  p-4" style="background-color: rgba(52, 58, 54, 0);">
+                                    <div id="orderSummary" class=" mt-4">
+                                      <p class="fs-5 right" style="color:black">Price</p><p class="fs-5 left" style="color:black">Item</p>
+                                      <br><br><hr style="color: black;">
+                                        <div id="ordersum" class="row" style="color: black">
+                                          
+                                      
+                                        </div>
+                                        <br><hr style="color: black;">
+                                        <div class="row pb-2" style="color:black";>
+                                          <!-- <h5>Total : </h5> -->
+                                            <h5 id="cartnum"> </h5>
+                                            <h5 id="total-input"></h5>
+                                            
+                                            <!-- <button id="place-order" class="btn-buy w-50 p-2" onclick="placeOrder();">Place Order</button>
+                                            <button class="btn-del w-50 p-2" onclick="del();">Delete Order</button> -->
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                  
+                              
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                            </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+
+      </div>
+    
+    </div>
+
+    <br><br>
+    <!-- FOOTER -->
+    <div class="footer container-fluid" style="text-align: center; font-size: 12px; background-color: rgba(0, 0, 0, 0);">
+        <div class="col p-2">
+          <ul style="color: rgb(221, 221, 221);">
+            <p>© All rights go to their respectful owners.</p>
+            <p><u>Privacy Policy</u> │ <u>Refund Policy</u> │ <u>Shipping Policy</u> │ <u>Terms of Service </u></p>
+          </ul>
+        </div>
+    </div>
+
+
+    <script src="index4.js"></script>
+</body>
+</html>
